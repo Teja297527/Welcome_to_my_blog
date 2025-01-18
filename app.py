@@ -25,42 +25,57 @@ if selection == "Product":
     st.markdown("![Alt Text](https://netsurfdirect.com/Content/products/821.jpg)")
 
       # Title of the page
-    st.title("Product Showcase")
+    st.title("NETSURF'S BIOFIT CATTLE FEED")
 
     # Product Details
-    st.header("Product Name: Awesome Widget")
+    st.header("Product Name: PET VET")
 
     # Description of the product
     st.write("""
-        This is an awesome widget that helps with many tasks.
-        It's designed to make your life easier and more productive.
-        * High-quality material
-        * Durable and long-lasting
-        * Available in multiple colors
-        * Affordable pricing
+        It is used for animals like Cow,Buffalo,Horse,Sheep,Dog,etc.
+        It will increase the efficiency of milk production.
+        * RUMEN Function and feeding stability will be optimised.
+        * It will improve Count of nutrients,SNF and Fats in the milk.
+        * It will improve taking Powdered items. 
+        * It is used for the porposes of different animals.
     """)
 
     # Pricing Information
-    st.subheader("Price: $99.99")
+    st.subheader("Price:1000/-")
 
     # Button to simulate adding to cart
-    if st.button("Add to Cart"):
-        st.write("Added to Cart!")
+    if st.button("BUY NOW"):
+        st.write("PLEASE CONTACT TO 9440230314")
 
     # Customer Reviews
     st.header("Customer Reviews")
     st.write("""
-        * ⭐⭐⭐⭐⭐ - "This widget is amazing! It made my tasks so much easier."
-        * ⭐⭐⭐⭐ - "Great quality, but could be improved in some areas."
-        * ⭐⭐⭐⭐⭐ - "Love it! Totally worth the price."
+        * ⭐⭐⭐⭐⭐ - "This is a amazing product.And iam using for long years."
+        * ⭐⭐⭐⭐⭐ - "Excellent product.Results are very good after using this product."
+        * ⭐⭐⭐⭐⭐ - "Love it! This product was stolen my heart with this results."
+        * ⭐⭐⭐⭐⭐ - "This product can be used for all types of animals.We can try this one."
     """)
 
-    # About Page
+
+# About Page
 
 elif selection == "About":
  st.header("About This Blog")
- st.markdown("![Alt Text](https://netsurfdirect.com/Content/products/821.jpg)")
- st.write("This blog is created using Streamlit. It's simple, interactive, and fun!")
+ st.markdown("![Alt Text](https://5.imimg.com/data5/ANDROID/Default/2023/12/369790637/JC/XD/AP/64293832/product-jpeg-500x500.jpg)")
+ st.write("""
+     * It is also available for animals like Sheep,Goat,and also for Poultry.
+     * It will be useful for good health of a growing baby in animals.
+     * It improve weight of animals and also immunity of a animal.
+     * It will decrease the rate of death of a animal.
+     
+     This product is useful for all types of problems of animals.
+     Which were faced by animals.It some type of nutrients which recover the problem.
+     So, it can cure the diseases of animals and also boost in production.
+     It is a very useful product for animals........""")
+
+
+ st.write("......THANK YOU.......")
+
 
       # Contact Page
 elif selection == "Contact":
