@@ -81,6 +81,8 @@ elif selection == "About":
 elif selection == "Contact":
  st.header("Contact Me")
  st.subheader("PHONE:9440230314")
+ st.subheader("MAIL:nagabushanamvanarasa@gmail.com")
+ st.write("Mail to this Gmail..")  
  st.write("Feel free to reach out via email or social media!")
  st.text_input("Your Email")
  st.text_area("Message")
