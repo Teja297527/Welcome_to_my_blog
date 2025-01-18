@@ -13,9 +13,11 @@ if selection == "Home":
     st.header("A Healthy Cow Gives Healthy Milk...")
     st.markdown(
         "![Alt Text](https://d147a5vd7kzml6.cloudfront.net/img/cowsignals_com/2614/2560x1440/resize:fixed/cowsignals_2560px.jpg)")
-    st.write("The cow should be healthy to give healthy milk for another people."
-             "so the product is useful for animals to give that strength to animal."
-             "it is a useful product for cleaning of stomach of animals and give healthy nutrients.")
+    st.write("""
+    The cow should be healthy to give healthy milk for another people.
+    so the product is useful for animals to give that strength to animal.
+    it is a useful product for cleaning of stomach of animals and give healthy nutrients.
+    """)
 
     # Product Page
 
