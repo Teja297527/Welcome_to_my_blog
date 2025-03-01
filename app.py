@@ -4,12 +4,8 @@ import streamlit as st
 st.title("WELCOME TO OUR BLOG!")
 
 # Add a sidebar for navigation
-st.sidebar.title("Navigation")
-pages = ["Home","Product", "About", "Contact"]
-selection = st.sidebar.radio("Go to", pages)
 
     # Home Page
-if selection == "Home":
     st.header("A Healthy Cow Gives Healthy Milk...")
     st.markdown(
         "![Alt Text](https://d147a5vd7kzml6.cloudfront.net/img/cowsignals_com/2614/2560x1440/resize:fixed/cowsignals_2560px.jpg)")
@@ -20,8 +16,6 @@ if selection == "Home":
     """)
  
    # Product Page
-
-if selection == "Product":
 
     # Add a product image (use an actual image URL or local file path)
     st.markdown("![Alt Text](https://netsurfdirect.com/Content/products/821.jpg)")
@@ -61,7 +55,6 @@ if selection == "Product":
 
 # About Page
 
-elif selection == "About":
  st.header("About This Blog")
  st.markdown("![Alt Text](https://5.imimg.com/data5/ANDROID/Default/2023/12/369790637/JC/XD/AP/64293832/product-jpeg-500x500.jpg)")
  st.write("""
@@ -80,7 +73,7 @@ elif selection == "About":
 
 
       # Contact Page
-elif selection == "Contact":
+
  st.header("Contact Me")
  st.subheader("PHONE:9440230314")
  st.subheader("MAIL:nagabushanamvanarasa@gmail.com")
